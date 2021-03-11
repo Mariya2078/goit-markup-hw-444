@@ -190,6 +190,9 @@ body {
   background-color: #f5f4fa;
   border-radius: 4px;
 }
+.photo-before-list-icon:not(:last-child) {
+  margin-right: 30px;
+}
 
 .discription {
   padding-top: 30px;
