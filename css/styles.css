@@ -196,6 +196,7 @@ body {
 .photo-before-list-item {
   width: 66px;
   height: 70px;
+  flex-shrink: 0;
 }
 
 .discription {
@@ -285,6 +286,19 @@ body {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-list-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: brown;
+}
+.social-list-icon {
 }
 /*-----------------------------OUR PROFESSIONAL   END-------------------------------------------*/
 
