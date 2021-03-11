@@ -179,6 +179,7 @@ body {
 /*---------------------------DISCRIPTION--------------------------------------------*/
 .photo-before-list {
   display: flex;
+  padding-top: 94px;
 }
 .photo-before-list-icon {
   display: flex;
@@ -189,13 +190,9 @@ body {
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-.photo-before-list-item {
-  width: 30px;
-  height: 30px;
-  background-color: tomato;
-}
+
 .discription {
-  padding-top: 94px;
+  padding-top: 30px;
   padding-bottom: 94px;
 }
 .discription-link {
