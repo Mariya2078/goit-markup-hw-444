@@ -64,6 +64,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+}
 /*---------------------------END COMPONENTS--------------------------------------------*/
 
 /*---------------------------HEADER--------------------------------------------*/
@@ -299,6 +303,8 @@ body {
   background-color: brown;
   display: flex;
   border-radius: 50%;
+  justify-content: center;
+  align-items: center;
 }
 .social-list-item:not(:last-child) {
   margin-right: 10px;
