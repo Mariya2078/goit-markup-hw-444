@@ -68,7 +68,6 @@ body {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
-  background-color: violet;
 }
 /*---------------------------END COMPONENTS--------------------------------------------*/
 
@@ -310,8 +309,8 @@ body {
 .social-list-item:not(:last-child) {
   margin-right: 10px;
 }
-.social-list-link .social-list-icon:hover,
-.social-list-link .social-list-icon:focus {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
   fill: white;
 }
 .social-list-link:hover,
@@ -349,8 +348,8 @@ body {
 .client-icon {
   fill: #afb1b8;
 }
-.client-list-link .client-icon:hover,
-.client-list-link .client-icon:focus {
+.client-list-link:hover .client-icon,
+.client-list-link:focus .client-icon {
   fill: var(--accent-color);
 }
 .client-list-link:hover,
