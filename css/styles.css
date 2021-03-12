@@ -68,6 +68,7 @@ body {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+  background-color: violet;
 }
 /*---------------------------END COMPONENTS--------------------------------------------*/
 
@@ -305,7 +306,6 @@ body {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  background-color: white;
 }
 .social-list-item:not(:last-child) {
   margin-right: 10px;
@@ -320,6 +320,46 @@ body {
 }
 
 /*-----------------------------OUR PROFESSIONAL   END-------------------------------------------*/
+
+/*-----------------------------OUR CLIENT-------------------------------------------*/
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.our-client {
+  display: flex;
+  align-items: center;
+}
+.client-list-link {
+  width: 170px;
+  height: 90px;
+  display: flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.client-list {
+  display: flex;
+  align-items: center;
+}
+.client-list:not(:last-child) {
+  margin-right: 30px;
+}
+.client-icon {
+  fill: #afb1b8;
+}
+.client-list-link .client-icon:hover,
+.client-list-link .client-icon:focus {
+  fill: var(--accent-color);
+}
+.client-list-link:hover,
+.client-list-link:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+/*-----------------------------OUR- CLIENT-END-------------------------------------------*/
 
 /*-----------------------------FOOTER-------------------------------------------*/
 .footer {
