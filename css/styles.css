@@ -135,6 +135,8 @@ body {
   align-items: center;
 }
 .mail-img {
+  width: 16px;
+  height: 12px;
   margin-right: 10px;
   fill: var(--accent-second-color);
 }
@@ -324,6 +326,7 @@ body {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: white;
 }
 .social-list {
   margin-top: 16px;
