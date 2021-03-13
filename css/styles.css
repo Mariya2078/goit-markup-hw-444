@@ -70,6 +70,11 @@ body {
   height: 20px;
   fill: #afb1b8;
 }
+.social-list-icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
 /*---------------------------END COMPONENTS--------------------------------------------*/
 
 /*---------------------------HEADER--------------------------------------------*/
@@ -394,11 +399,18 @@ body {
 /*-----------------------------FOOTER-------------------------------------------*/
 .footer {
   background-color: #2f303a;
+  display: flex;
+  align-items: center;
+}
+.address-list {
   display: block;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.address {
+  display: flex;
+  align-items: center;
+}
 .address-link-addres {
   font-weight: normal;
   font-size: 14px;
@@ -425,6 +437,42 @@ body {
 }
 .address-link:last-child {
   margin-bottom: 0px;
+}
+.footer-title {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.footer-link {
+  display: block;
+  align-items: center;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+.social-list-footer {
+  display: flex;
+  align-items: center;
+}
+.address-link-footer {
+  margin-bottom: 20px;
+}
+.social-list-link-footer {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background-color: var(--accent-color);
 }
 /*-----------------------------FOOTER  END-------------------------------------------*/
 
